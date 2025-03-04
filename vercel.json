@@ -1,5 +1,5 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/",
       "destination": "https://indome.michaellimair.me/e/3/indome-one-last-dance",
