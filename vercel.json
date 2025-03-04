@@ -1,13 +1,14 @@
 {
-  "regions": ["hkg1"],
   "rewrites": [
     {
       "source": "/",
-      "destination": "/api"
+      "destination": "https://indome.michaellimair.me/e/3/indome-one-last-dance",
+      "permanent": false
     },
     {
-      "source": "/:path*",
-      "destination": "/api/:path*"
+      "source": "/:path(.*)",
+      "destination": "https://indome.michaellimair.me/e/3/indome-one-last-dance/:path*",
+      "permanent": false
     }
   ]
 }
